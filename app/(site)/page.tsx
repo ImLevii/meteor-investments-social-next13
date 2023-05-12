@@ -17,8 +17,8 @@ const Auth = () => {
     >
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <Image
-          height="200"
-          width="200"
+          height="1200"
+          width="1200"
           className="mx-auto w-auto"
           src="/images/mg-gold-transparent.png"
           alt="Logo"
