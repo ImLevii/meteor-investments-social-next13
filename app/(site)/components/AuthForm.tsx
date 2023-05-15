@@ -23,10 +23,7 @@ const AuthForm = () => {
   useEffect(() => {
     if (session?.status === 'authenticated') {
       router.push('/conversations')
-    }
-    function refreshPage() {
-    window.location.reload(false);
-    }
+    }   
   }, [session?.status, router]);
 
   const toggleVariant = useCallback(() => {
